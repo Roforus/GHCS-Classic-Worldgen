@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "ru.roforus.ghcs.classic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlacedFeatureMixin",
+    "PlacedFeatureInvoker",
+    "CarverSelectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

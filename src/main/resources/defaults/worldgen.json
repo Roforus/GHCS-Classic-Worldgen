@@ -1,0 +1,153 @@
+{
+  "minimum_y": 0,
+  "maximum_y_exclusive": 320,
+  "ores": {
+    "minecraft:ore_coal_upper": {
+      "count": 20,
+      "size": 17,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 127
+        }
+      }
+    },
+    "minecraft:ore_iron_middle": {
+      "count": 20,
+      "size": 9,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 63
+        }
+      }
+    },
+    "minecraft:ore_gold": {
+      "count": 2,
+      "size": 9,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 31
+        }
+      }
+    },
+    "minecraft:ore_gold_extra": {
+      "count": 20,
+      "size": 9,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 32
+        },
+        "max_inclusive": {
+          "absolute": 79
+        }
+      }
+    },
+    "minecraft:ore_redstone": {
+      "count": 8,
+      "size": 8,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 15
+        }
+      }
+    },
+    "minecraft:ore_diamond": {
+      "count": 1,
+      "size": 8,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 15
+        }
+      }
+    },
+    "minecraft:ore_lapis": {
+      "count": 1,
+      "size": 7,
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 30
+        }
+      }
+    },
+    "minecraft:ore_emerald": {
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 3,
+        "max_inclusive": 8
+      },
+      "size": 1,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 4
+        },
+        "max_inclusive": {
+          "absolute": 31
+        }
+      }
+    },
+    "minecraft:ore_copper": {
+      "count": 6,
+      "size": 10,
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 95
+        }
+      }
+    }
+  },
+  "disabled_placements": [
+    "minecraft:ore_coal_lower",
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_iron_small",
+    "minecraft:ore_gold_lower",
+    "minecraft:ore_redstone_lower",
+    "minecraft:ore_diamond_large",
+    "minecraft:ore_diamond_medium",
+    "minecraft:ore_diamond_buried",
+    "minecraft:ore_lapis_buried",
+    "minecraft:ore_copper_large"
+  ],
+  "caves": {
+    "probability": 0.14285714285714285,
+    "minimum_origin": 0,
+    "maximum_origin": 127,
+    "inner": 8,
+    "lava_level": 10
+  },
+  "canyons": {
+    "probability": 0.02,
+    "minimum_origin": 20,
+    "maximum_origin": 67,
+    "inner": 8,
+    "lava_level": 10
+  }
+}
